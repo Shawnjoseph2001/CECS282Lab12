@@ -11,11 +11,14 @@ class person {
 public:
     person(string ln, string fn, int num);
     person();
-private:
-    string lastName;
+    friend ostream& operator<<(ostream& os, const person& p);
     string firstName;
+    string lastName;
+    bool operator<(person p);
+    bool operator>(person p);
+    bool operator==(person p);
+private:
     int ID;
 };
-
 
 #endif //LAB12_PERSON_H

@@ -6,8 +6,11 @@
 #define LAB12_COMPAREPERSONS_H
 
 
-class comparePersons {
+#include "person.h"
 
+class comparePersons {
+public:
+    bool operator() (person * p1, person * p2) const;
 };
 
 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.cpp
+person.h
+/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.h
+utility
+-
+iostream
+-
+
+/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.h
+string
+-
+
