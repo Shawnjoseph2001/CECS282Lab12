@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/main.cpp" "/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/cmake-build-debug/CMakeFiles/Lab12.dir/main.cpp.o"
   "/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.cpp" "/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/cmake-build-debug/CMakeFiles/Lab12.dir/person.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -53,10 +53,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.19.0_1/bin/cmake
+CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.19.0_1/bin/cmake -E rm -f
+RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,41 +79,41 @@ include CMakeFiles/Lab12.dir/flags.make
 CMakeFiles/Lab12.dir/main.cpp.o: CMakeFiles/Lab12.dir/flags.make
 CMakeFiles/Lab12.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab12.dir/main.cpp.o"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab12.dir/main.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab12.dir/main.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/main.cpp
 
 CMakeFiles/Lab12.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab12.dir/main.cpp.i"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/main.cpp > CMakeFiles/Lab12.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/main.cpp > CMakeFiles/Lab12.dir/main.cpp.i
 
 CMakeFiles/Lab12.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab12.dir/main.cpp.s"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/main.cpp -o CMakeFiles/Lab12.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/main.cpp -o CMakeFiles/Lab12.dir/main.cpp.s
 
 CMakeFiles/Lab12.dir/person.cpp.o: CMakeFiles/Lab12.dir/flags.make
 CMakeFiles/Lab12.dir/person.cpp.o: ../person.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab12.dir/person.cpp.o"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab12.dir/person.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab12.dir/person.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.cpp
 
 CMakeFiles/Lab12.dir/person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab12.dir/person.cpp.i"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.cpp > CMakeFiles/Lab12.dir/person.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.cpp > CMakeFiles/Lab12.dir/person.cpp.i
 
 CMakeFiles/Lab12.dir/person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab12.dir/person.cpp.s"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.cpp -o CMakeFiles/Lab12.dir/person.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.cpp -o CMakeFiles/Lab12.dir/person.cpp.s
 
 CMakeFiles/Lab12.dir/comparePersons.cpp.o: CMakeFiles/Lab12.dir/flags.make
 CMakeFiles/Lab12.dir/comparePersons.cpp.o: ../comparePersons.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab12.dir/comparePersons.cpp.o"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab12.dir/comparePersons.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/comparePersons.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab12.dir/comparePersons.cpp.o -c /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/comparePersons.cpp
 
 CMakeFiles/Lab12.dir/comparePersons.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab12.dir/comparePersons.cpp.i"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/comparePersons.cpp > CMakeFiles/Lab12.dir/comparePersons.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/comparePersons.cpp > CMakeFiles/Lab12.dir/comparePersons.cpp.i
 
 CMakeFiles/Lab12.dir/comparePersons.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab12.dir/comparePersons.cpp.s"
-	/usr/local/Cellar/gcc/10.2.0/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/comparePersons.cpp -o CMakeFiles/Lab12.dir/comparePersons.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/comparePersons.cpp -o CMakeFiles/Lab12.dir/comparePersons.cpp.s
 
 # Object files for target Lab12
 Lab12_OBJECTS = \

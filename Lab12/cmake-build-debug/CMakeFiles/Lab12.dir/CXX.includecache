@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/comparePersons.cpp
+comparePersons.h
+/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/comparePersons.h
+
+/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/comparePersons.h
+person.h
+/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.h
+
+/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/main.cpp
+iostream
+-
+set
+-
+person.h
+/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.h
+string
+-
+comparePersons.h
+/Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/comparePersons.h
+
 /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.cpp
 person.h
 /Users/shawn/Documents/GitHub/CECS282Lab12/Lab12/person.h

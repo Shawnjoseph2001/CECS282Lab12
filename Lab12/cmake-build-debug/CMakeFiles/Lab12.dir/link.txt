@@ -1,1 +1,1 @@
-/usr/local/Cellar/gcc/10.2.0/bin/g++-10 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Lab12.dir/main.cpp.o CMakeFiles/Lab12.dir/person.cpp.o CMakeFiles/Lab12.dir/comparePersons.cpp.o -o Lab12 
+/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Lab12.dir/main.cpp.o CMakeFiles/Lab12.dir/person.cpp.o CMakeFiles/Lab12.dir/comparePersons.cpp.o -o Lab12 
